@@ -87,7 +87,7 @@ nav .fa{
 .overview{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(75, 88, 150, 0.6),rgba(4,9,30,0.6)),url(images/banner1.jpg);
+    background-image: linear-gradient(rgba(75, 88, 150, 0.85),rgba(4,9,30,0.9)),url(images/banner1.jpg);
     background-position: center;
     background-size: cover;
     position: relative;

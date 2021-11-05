@@ -8,7 +8,7 @@
    <link rel='icon' type='img/png' href='https://login.vivaldi.net/profile/avatar/Akashm/1KTqWhv45m54havw.png' sizes='16x16' />
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Caveat:wght@400;500;600;700&family=Cookie&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Caveat:wght@400;500;600;700&family=Cookie&display=swap&family=Montserrat" rel="stylesheet">
    <link rel='stylesheet' href="styles.css" />
 </head>
 <body>
@@ -30,7 +30,7 @@
          <br>
          <div class="text-box">
             <!--<h1>Wildlife</h1>-->
-            <svg width="100%" height="100%">          
+            <svg class="svg1" width="100%" height="100%">          
                <rect x="0" y="0" width="100%" height="100%" fill="url(#polka-dots)"> </rect>
             <text x="50%" y="60%" text-anchor="middle">Wildlife</text>
             </svg>
@@ -40,7 +40,18 @@
    </section>
    <section class="overview">
       <div class="div-overview">
-         <h1>Overview</h1>
+         <svg class="animation" width="960px">
+            <symbol id="s-text">
+              <text x="50%" y="60%" text-anchor="middle">OVERVIEW</text>
+            </symbol>
+            <g class = "g-ants">
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+            </g>
+          </svg>
          <p>
             Saving nature is at the very heart of what we do as WWF. For 1 years, 
             we have made it our mission to find solutions that save the marvelous array of life on our planet 
@@ -66,7 +77,6 @@
    </section>
    <section class="other">
       <div class="div-other">
-         <h1>Hi</h1>
       </div>
    </section>
 </body> 

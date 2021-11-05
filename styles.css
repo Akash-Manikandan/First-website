@@ -106,7 +106,43 @@ nav .fa{
       stroke-dashoffstet: -20%;
       fill: hsla(189, 68%, 75%,0%)
     }
-}  
+}
+@media(max-width:700px) {
+    .text-box h1{
+        font-size: 18px;
+        margin: 10px 0 40px;
+        color: white;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .svg1 text {
+        font-size: 50px;
+    }
+    .nav-links{
+        position: absolute;
+        background: #ff0000;
+        font-size: 28px;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav .fa{
+        display: block;
+        color: #ffff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+}
+/*Next*/  
 .overview {
     display: inline-block;
     height:100%;
@@ -143,30 +179,30 @@ nav .fa{
 }
 .text-copy {
     fill: none;
-    stroke: white;
+    stroke: #ff0000;
     stroke-dasharray: 6% 29%;
     stroke-width: 5px;
     stroke-dashoffset: 0%;
     animation: stroke-offset 5.5s infinite linear;
 }
 .text-copy:nth-child(1){
-  stroke: black;
+  stroke: red;
   animation-delay: -1;
 }
 .text-copy:nth-child(2){
-  stroke: white;
+  stroke: black;
   animation-delay: -2s;
 }
 .text-copy:nth-child(3){
-  stroke: white;
+  stroke: black;
   animation-delay: -3s;
 }
 .text-copy:nth-child(4){
-  stroke: white;
+  stroke: black;
   animation-delay: -4s;
 }
 .text-copy:nth-child(5){
-  stroke: white;
+  stroke: black;
   animation-delay: -5s;
 }
 @keyframes stroke-offset{
@@ -175,12 +211,25 @@ nav .fa{
 .overview p{
     margin: 10px 0 40px;
     font-size: 28px;
-    color: white;
+    color: black;
     font-family: 'Cookie', cursive;
 }
 .overview p strong{
     font-family: 'Arvo', serif;
 }
+@media(max-width:700px){
+    .animation {
+        letter-spacing: 13px;
+        font-weight: 800;       
+    }
+    .animation text{
+        font-size: 45px;
+        font-family:'Poppins';
+        text-align: center;
+        position: absolute;
+    }
+}
+/*Next*/
 .other{
     min-height: 100vh;
     width: 100%;

@@ -147,6 +147,10 @@ nav .fa{
 }
 /*Next*/
 .overview {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: auto;
+    padding-right: auto;
     display: inline-block;
     height:100%;
     background: linear-gradient(-45deg, #ff0000, #c4c274, #23a6d5, #23d5ab);

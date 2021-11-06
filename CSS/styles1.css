@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
     font-family: 'Caveat', cursive;
 }
 .header{
@@ -87,19 +88,18 @@ nav .fa{
     font-family: Arvo;
     letter-spacing: 10px;
     stroke: #ff0000;
-    font-size: 70px;
+    font-size: 60px;
+    letter-spacing: 13px;
     font-weight: 700;
     stroke-width: 3;
     text-align: center;
-    animation: textAnimate 4s infinite alternate;
-    
+    animation: textAnimate 4s infinite alternate;  
 }
 @keyframes textAnimate {
     0% {
       stroke-dasharray: 0 50%;
       stroke-dashoffset:  20%;
-      fill:hsl(0, 0%, 99%)
-  
+      fill:hsl(0, 0%, 99%);
     }
     100% {
       stroke-dasharray: 50% 0;
@@ -108,6 +108,9 @@ nav .fa{
     }
 }
 @media(max-width:700px) {
+    html,body{
+        overflow-x: hidden;
+    }
     .text-box h1{
         font-size: 18px;
         margin: 10px 0 40px;
@@ -117,7 +120,7 @@ nav .fa{
         display: block;
     }
     .svg1 text {
-        font-size: 50px;
+        font-size: 40px;
     }
     .nav-links{
         position: absolute;
@@ -142,7 +145,7 @@ nav .fa{
         padding: 30px;
     }
 }
-/*Next*/  
+/*Next*/
 .overview {
     display: inline-block;
     height:100%;
@@ -218,6 +221,10 @@ nav .fa{
     font-family: 'Arvo', serif;
 }
 @media(max-width:700px){
+    .overview {
+        background-size: 2500% 400%;
+        animation: gradient 30s ease infinite;
+    }
     .animation {
         letter-spacing: 13px;
         font-weight: 800;       

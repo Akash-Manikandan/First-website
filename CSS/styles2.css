@@ -48,6 +48,7 @@
 }
 .vul h2,.endanger h2,.crit h2{
     text-align: center;
+    color: black;
     font-family: 'Merienda', cursive;
     font-weight: 600;
     margin: 5px 0;

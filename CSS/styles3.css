@@ -127,8 +127,15 @@
         background-position: 0% 50%;
     }
 }
+.hi{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0,0,0,0));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
 .end{
-    margin-top: 650px;
     background-color: steelblue;
     display: flex;
     position: relative; 
@@ -192,7 +199,8 @@
 @media(max-width: 700px){ 
     .end{
         padding:15px 15px 15px 15px;
-        margin-top: 1336px;
+        margin-top: 696px;
+        position: absolute;
     }
     .end-div2{
         bottom: 15px;
